@@ -1,0 +1,43 @@
+html {
+  font-family: 'Arapey', serif, "Harmonia Sans W01", Helvetica, sans-serif;
+font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #404040;
+  background-blend-mode: multiply,multiply;
+}
+
+.Home-Header {
+  background-repeat: no-repeat;
+  background-size: fit;
+  height: 100vh;
+  min-height: 400px;
+  max-height: 715px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.logo-image {
+  text-transform: uppercase;
+  font-size: 3em;
+
+  margin: 0;
+  margin-bottom: 1rem;
+
+  text-align: center;
+}
+
+.logo-char {
+  color: #f5f3e2;
+  font-size: 3.4em;
+  line-height: 1.235em;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0 auto;
+
+  max-width: 50rem;
+}
